@@ -1,0 +1,64 @@
+html {
+	background: url(../images/lines.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.divider {
+	margin-top:40px;
+	background-image: url(../images/lines.png);
+	background-color:rgba(255,0,0,0.5);
+
+}
+
+.header{
+	margin-top:-30px;
+	position:fixed;
+	top:5;
+	left:0;
+	
+	text-shadow:
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	
+}
+
+
+.profile {
+	
+	height: 140px;
+}
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  
+  opacity: 0.9;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  color: #000000;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+#col1{
+	float:left;
+	width: 50%;
+	
+}
+#col2 {
+	float:left;
+	width: 50%;
+	
+}
